@@ -16,9 +16,16 @@ The API requires requests to be signed using HMAC SHA256 to verify authenticity.
   ```
 - Run the Node.js server with:
   ```bash
-  node index.js
+  node server.js
   ```
 - The server listens on port `5000` and exposes the POST endpoint `/create-smarttrade`.
+
+
+  - Run the Node.js old version server with:
+  ```bash
+  node index.js
+  ```
+- The server listens on port `5000` and exposes the POST endpoint `/smart-trade/create`.
 
 ---
 
